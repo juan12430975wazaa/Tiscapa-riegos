@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc">
+  <title id="title">Rutas de evacuacion</title>
+  <desc id="desc">Ilustracion de senalizacion de salida y recorrido de evacuacion</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#152f36"/>
+      <stop offset="100%" stop-color="#0f2127"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="700" fill="url(#bg)"/>
+  <circle cx="120" cy="120" r="130" fill="#1fb5a9" opacity="0.15"/>
+  <circle cx="930" cy="620" r="180" fill="#3f4f3c" opacity="0.14"/>
+  <rect x="90" y="100" width="820" height="460" rx="26" fill="#f4f8fa" stroke="#c8d6dc" stroke-width="3"/>
+  <rect x="130" y="150" width="340" height="180" rx="14" fill="#0f6b63"/>
+  <rect x="250" y="185" width="94" height="28" rx="10" fill="#ffffff"/>
+  <polygon points="200,240 290,240 290,218 360,257 290,296 290,274 200,274" fill="#ffffff"/>
+  <rect x="500" y="150" width="350" height="320" rx="16" fill="#dce8ee"/>
+  <g stroke="#2f4c58" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="550,210 640,210 640,270 740,270 740,335 810,335"/>
+    <polyline points="550,260 600,260 600,355 700,355 700,420 810,420"/>
+  </g>
+  <g fill="#1fb5a9">
+    <polygon points="810,335 778,318 778,352"/>
+    <polygon points="810,420 778,403 778,437"/>
+  </g>
+  <g transform="translate(170 360)">
+    <circle cx="52" cy="56" r="22" fill="#f2c8aa"/>
+    <rect x="30" y="80" width="44" height="72" rx="16" fill="#3f4f3c"/>
+    <rect x="22" y="96" width="12" height="52" rx="6" fill="#3f4f3c"/>
+    <rect x="74" y="96" width="12" height="52" rx="6" fill="#3f4f3c"/>
+  </g>
+  <g transform="translate(270 360)">
+    <circle cx="52" cy="56" r="22" fill="#f2c8aa"/>
+    <rect x="30" y="80" width="44" height="72" rx="16" fill="#1fb5a9"/>
+    <rect x="22" y="96" width="12" height="52" rx="6" fill="#1fb5a9"/>
+    <rect x="74" y="96" width="12" height="52" rx="6" fill="#1fb5a9"/>
+  </g>
+  <text x="78" y="620" fill="#e9f8f7" font-size="46" font-family="Arial, sans-serif" font-weight="700">Rutas de Evacuacion</text>
+  <text x="78" y="655" fill="#b6cdcf" font-size="24" font-family="Arial, sans-serif">Senalizacion, accesibilidad y salida ordenada</text>
+</svg>

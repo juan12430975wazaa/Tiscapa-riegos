@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+  <title id="title">Radio portatil</title>
+  <desc id="desc">Radio para alertas oficiales</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a3028"/>
+      <stop offset="100%" stop-color="#121f1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" fill="url(#bg)"/>
+  <circle cx="130" cy="120" r="130" fill="#1fb5a9" opacity="0.14"/>
+  <circle cx="830" cy="620" r="180" fill="#3f4f3c" opacity="0.14"/>
+  <g transform="translate(230 220)">
+    <rect x="0" y="80" width="500" height="280" rx="34" fill="#e2e9ee" stroke="#bcc9d0" stroke-width="4"/>
+    <line x1="110" y1="80" x2="290" y2="-20" stroke="#9aadb8" stroke-width="12" stroke-linecap="round"/>
+    <rect x="44" y="120" width="210" height="90" rx="14" fill="#0f6b63"/>
+    <circle cx="370" cy="220" r="92" fill="#2b3c46"/>
+    <circle cx="370" cy="220" r="52" fill="#151d22"/>
+    <circle cx="370" cy="220" r="18" fill="#1fb5a9"/>
+    <rect x="46" y="244" width="220" height="72" rx="12" fill="#d2dde4"/>
+    <g fill="#8da2ad">
+      <rect x="64" y="266" width="24" height="24" rx="6"/>
+      <rect x="96" y="266" width="24" height="24" rx="6"/>
+      <rect x="128" y="266" width="24" height="24" rx="6"/>
+      <rect x="160" y="266" width="24" height="24" rx="6"/>
+      <rect x="192" y="266" width="24" height="24" rx="6"/>
+      <rect x="224" y="266" width="24" height="24" rx="6"/>
+    </g>
+  </g>
+  <g fill="none" stroke="#6ee0d5" stroke-width="7" opacity="0.8">
+    <path d="M744 256 q32 36 0 72"/>
+    <path d="M778 232 q50 60 0 120"/>
+  </g>
+  <text x="72" y="655" fill="#e9f8f4" font-size="44" font-family="Arial, sans-serif" font-weight="700">Radio Portatil</text>
+</svg>

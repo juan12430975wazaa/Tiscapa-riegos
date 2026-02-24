@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+  <title id="title">Silbato</title>
+  <desc id="desc">Silbato para senalizacion de emergencia</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a2532"/>
+      <stop offset="100%" stop-color="#171420"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" fill="url(#bg)"/>
+  <circle cx="140" cy="120" r="130" fill="#1fb5a9" opacity="0.14"/>
+  <circle cx="850" cy="620" r="170" fill="#3f4f3c" opacity="0.14"/>
+  <g transform="translate(250 210)">
+    <path d="M0 180 C0 90 70 20 160 20 H320 C380 20 430 70 430 130 C430 190 380 240 320 240 H190 C160 240 136 264 136 294 V320 H68 V286 C68 216 126 180 196 180 Z" fill="#f1b432"/>
+    <circle cx="308" cy="130" r="56" fill="#d69721"/>
+    <circle cx="308" cy="130" r="18" fill="#8b5a12"/>
+    <circle cx="70" cy="120" r="48" fill="none" stroke="#f7cf73" stroke-width="16"/>
+  </g>
+  <g fill="none" stroke="#7ce7dc" stroke-width="7" opacity="0.82">
+    <path d="M760 230 q58 48 0 96"/>
+    <path d="M802 202 q84 78 0 156"/>
+    <path d="M116 278 q-58 48 0 96"/>
+  </g>
+  <text x="72" y="655" fill="#f2f1ff" font-size="44" font-family="Arial, sans-serif" font-weight="700">Silbato de Emergencia</text>
+</svg>

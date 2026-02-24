@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+  <title id="title">Botiquin</title>
+  <desc id="desc">Maletin de primeros auxilios</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#37201a"/>
+      <stop offset="100%" stop-color="#1e1411"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" fill="url(#bg)"/>
+  <circle cx="160" cy="120" r="140" fill="#ff7a2f" opacity="0.14"/>
+  <circle cx="840" cy="620" r="170" fill="#1fb5a9" opacity="0.12"/>
+  <rect x="250" y="230" width="460" height="300" rx="42" fill="#d83a2f"/>
+  <rect x="410" y="180" width="140" height="70" rx="24" fill="#b62b22"/>
+  <rect x="450" y="318" width="60" height="130" rx="10" fill="#ffffff"/>
+  <rect x="410" y="354" width="140" height="60" rx="10" fill="#ffffff"/>
+  <rect x="260" y="338" width="440" height="14" rx="7" fill="#b62b22" opacity="0.6"/>
+  <text x="72" y="655" fill="#ffece5" font-size="44" font-family="Arial, sans-serif" font-weight="700">Botiquin de Primeros Auxilios</text>
+</svg>
