@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Riesgo tecnologico</title>
+  <desc id="desc">Ilustracion de servidores y advertencia de sistema</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1f2a"/>
+      <stop offset="100%" stop-color="#163947"/>
+    </linearGradient>
+    <linearGradient id="rack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#223f4f"/>
+      <stop offset="100%" stop-color="#132834"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g opacity="0.2">
+    <circle cx="1100" cy="120" r="180" fill="#1fb5a9"/>
+    <circle cx="120" cy="700" r="220" fill="#3f4f3c"/>
+  </g>
+  <g transform="translate(170 120)">
+    <rect x="0" y="40" width="260" height="520" rx="18" fill="url(#rack)" stroke="#2a5a70" stroke-width="3"/>
+    <rect x="40" y="0" width="260" height="560" rx="18" fill="url(#rack)" stroke="#2a5a70" stroke-width="3"/>
+    <rect x="80" y="40" width="260" height="520" rx="18" fill="url(#rack)" stroke="#2a5a70" stroke-width="3"/>
+    <g fill="#6fd4cc">
+      <rect x="28" y="90" width="90" height="10" rx="5"/>
+      <rect x="70" y="90" width="90" height="10" rx="5"/>
+      <rect x="110" y="90" width="90" height="10" rx="5"/>
+      <rect x="28" y="170" width="90" height="10" rx="5"/>
+      <rect x="70" y="170" width="90" height="10" rx="5"/>
+      <rect x="110" y="170" width="90" height="10" rx="5"/>
+      <rect x="28" y="250" width="90" height="10" rx="5"/>
+      <rect x="70" y="250" width="90" height="10" rx="5"/>
+      <rect x="110" y="250" width="90" height="10" rx="5"/>
+      <rect x="28" y="330" width="90" height="10" rx="5"/>
+      <rect x="70" y="330" width="90" height="10" rx="5"/>
+      <rect x="110" y="330" width="90" height="10" rx="5"/>
+      <rect x="28" y="410" width="90" height="10" rx="5"/>
+      <rect x="70" y="410" width="90" height="10" rx="5"/>
+      <rect x="110" y="410" width="90" height="10" rx="5"/>
+    </g>
+  </g>
+  <g transform="translate(810 250)">
+    <circle cx="90" cy="90" r="88" fill="#f5f5f5" opacity="0.95"/>
+    <polygon points="90,28 144,130 36,130" fill="#d33b2e"/>
+    <rect x="84" y="74" width="12" height="32" rx="4" fill="#ffffff"/>
+    <circle cx="90" cy="118" r="6" fill="#ffffff"/>
+  </g>
+  <text x="90" y="705" fill="#e8f7f6" font-size="52" font-family="Arial, sans-serif" font-weight="700">
+    Riesgo Tecnologico
+  </text>
+  <text x="90" y="748" fill="#b7ced0" font-size="28" font-family="Arial, sans-serif">
+    Fallos de sistemas, energia y continuidad operativa
+  </text>
+</svg>

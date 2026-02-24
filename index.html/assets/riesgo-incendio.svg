@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Riesgo por incendio</title>
+  <desc id="desc">Ilustracion de fuego, detector y extintor</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2b1d16"/>
+      <stop offset="100%" stop-color="#17110d"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd36f"/>
+      <stop offset="55%" stop-color="#ff7a2f"/>
+      <stop offset="100%" stop-color="#c4371e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="150" cy="130" r="170" fill="#ff7a2f" opacity="0.14"/>
+  <circle cx="1050" cy="700" r="220" fill="#1fb5a9" opacity="0.12"/>
+  <rect x="200" y="520" width="800" height="80" rx="20" fill="#3a2b22"/>
+  <g transform="translate(320 210)">
+    <path d="M200 350 C110 280 130 180 210 110 C230 170 270 210 250 280 C310 220 360 220 390 290 C430 380 360 450 280 470 C250 476 222 472 200 460 C165 442 145 412 150 376 C154 347 171 324 200 350 Z" fill="url(#flame)"/>
+    <path d="M272 420 C232 390 234 344 272 302 C286 332 305 348 300 382 C324 362 344 370 355 398 C370 434 346 462 315 472 C298 478 282 476 272 470 C254 460 244 444 246 428 C248 414 256 402 272 420 Z" fill="#ffe6a8"/>
+  </g>
+  <g transform="translate(130 170)">
+    <rect x="0" y="0" width="160" height="90" rx="16" fill="#f4f4f4" stroke="#c8c8c8" stroke-width="4"/>
+    <circle cx="80" cy="45" r="22" fill="#e94f37"/>
+    <circle cx="80" cy="45" r="10" fill="#ffd9a8"/>
+  </g>
+  <g transform="translate(900 220)">
+    <rect x="20" y="90" width="90" height="260" rx="28" fill="#d2392f"/>
+    <rect x="36" y="120" width="58" height="80" rx="10" fill="#f4f4f4"/>
+    <rect x="40" y="50" width="50" height="55" rx="12" fill="#c72f25"/>
+    <path d="M70 48 C95 10 132 6 160 30" fill="none" stroke="#9ca9b0" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="66" cy="240" r="24" fill="#b52b22"/>
+  </g>
+  <text x="90" y="705" fill="#fff2de" font-size="52" font-family="Arial, sans-serif" font-weight="700">Riesgo por Incendio</text>
+  <text x="90" y="748" fill="#dfc4ae" font-size="28" font-family="Arial, sans-serif">Fuentes de calor, electricidad y materiales combustibles</text>
+</svg>
